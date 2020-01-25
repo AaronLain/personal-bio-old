@@ -1,0 +1,87 @@
+.nav-list {
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list li a{
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: rgb(90, 102, 114);
+    cursor: pointer;
+}
+
+
+body {
+    background-color: slategray;
+    color: floralwhite;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.projectsPage {
+    background-color: steelblue;
+    display: flex;
+}
+
+.project-card {
+    text-align: center;
+    width: 30em;
+    flex: 0 0 28%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    border-radius: 1em;
+    background-color: #474343a1;
+
+}
+
+.show {
+    display: flex;
+}
+
+.project-card p {
+    text-align: center;
+    color: rgb(162, 168, 173);
+    margin: 0 auto;
+}
+
+.project-card img {
+    height: 15em;
+    width: 30em;
+    margin: .5em;
+    align-self: center;
+    border-inline: 2px 2px #101010;
+}
+
+.project-card a {
+    padding: .5em;
+}
+
+.project-card:hover {
+    opacity: 1;
+    background-color: #101010;
+}
+
+.cardhead {
+    background-color: #824670;
+    height: 4em;
+    text-align: center;
+    justify-content: center;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    color: whitesmoke;
+}
